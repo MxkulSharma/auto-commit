@@ -9,7 +9,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
       with:
         persist-credentials: false
         fetch-depth: 0 
@@ -21,4 +21,4 @@ jobs:
         message: "Auto Commit"
         author_email: "sharmamukul06175@gmail.com"
         author_name: "wolvfyxmoon-ornery"
-        branch: "master"
+        branch: "main"
